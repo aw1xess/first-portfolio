@@ -1,0 +1,472 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 47px;
+  line-height: 1.3em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 34px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+.deactive {
+  color: #828282;
+}
+
+.deactive:hover {
+  transition: black 0.5s;
+  user-select: none;
+}
+
+.grey {
+  background: #f6f6f6;
+}
+
+.container {
+  margin: auto;
+}
+
+.nav {
+  padding-top: 33px;
+}
+
+.menu {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list li {
+  list-style-type: none;
+}
+
+.active {
+  color: black;
+}
+
+.line {
+  margin-top: 32px;
+  border-top: 1px solid #828282;
+}
+
+.shortinfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.name h1 {
+  align-self: center;
+}
+
+.gamburger {
+  display: none;
+}
+
+.age_work p {
+  position: relative;
+  top: 55%;
+}
+
+.lang p {
+  top: 90%;
+  transform: rotate(-90deg);
+  transform-origin: right bottom;
+  position: relative;
+  top: 18%;
+  color: #828282;
+  cursor: pointer;
+}
+
+.photo {
+  margin-top: 35px;
+}
+
+.about {
+  margin-top: 105px;
+}
+
+.about_title {
+  padding-top: 120px;
+  padding-bottom: 18px;
+}
+
+.about_text {
+  width: 485px;
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+  padding-top: 18px;
+  padding-bottom: 107px;
+}
+
+.about_para1,
+.about_para2 {
+  padding-bottom: 45px;
+}
+
+.about_para1,
+.about_para2,
+.about_para3 {
+  font-weight: 300;
+}
+
+.skills_title {
+  padding-top: 91px;
+  padding-bottom: 69px;
+}
+
+.skills {
+  text-align: center;
+  padding-bottom: 110px;
+}
+.skills_text {
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 84px;
+}
+
+.skills_apps {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_text {
+  color: #828282;
+  margin-top: 23px;
+  font-size: 14px;
+  margin-bottom: 41px;
+}
+
+.figma {
+  margin-top: 17px;
+}
+
+.portfolio_title {
+  padding-top: 113px;
+  margin-bottom: 47px;
+}
+.examples {
+  text-align: center;
+}
+
+.examples a {
+  color: black;
+}
+
+.links {
+  margin-top: 45px;
+  padding-bottom: 99px;
+  text-decoration: underline;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.footer_title {
+  padding-top: 106px;
+  margin-bottom: 20px;
+}
+
+.contacts_text {
+  width: 275px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.btn {
+  background: black;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  padding: 13px 30px;
+  border-radius: 110px;
+  display: block;
+  margin: 30px auto 86px auto;
+}
+
+.icons {
+  width: 343px;
+  margin: 0 auto 45px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_text {
+  color: #828282;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 0 123px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 944px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 944px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+
+  .photo img {
+    width: 720px;
+  }
+
+  .examples img {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+
+  .photo img {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body.lock {
+    overflow: hidden;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .gamburger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+    margin-left: 90%;
+  }
+
+  .gamburger span {
+    background-color: black;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .gamburger:before,
+  .gamburger:after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    right: 0;
+    transition: all 0.3s ease 0s;
+  }
+
+  .gamburger:before {
+    top: 0;
+  }
+
+  .gamburger:after {
+    bottom: 0;
+  }
+
+  .gamburger.closed:before {
+    transform: rotate(45deg);
+    top: 8px;
+    background-color: #828282;
+  }
+
+  .gamburger.closed:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+    background-color: #828282;
+  }
+
+  .gamburger.closed span {
+    transform: scale(0);
+  }
+
+  .menu {
+    position: fixed;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 34px;
+    background-color: #fff;
+    z-index: 2;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+
+  .menu.closed {
+    left: 100%;
+  }
+
+  .list {
+    display: block;
+  }
+
+  .menu li {
+    margin-bottom: 68px;
+  }
+
+  .lang {
+    display: none;
+  }
+
+  .shortinfo {
+    margin-top: -33px;
+    display: block;
+  }
+
+  .age_work {
+    margin-top: 23px;
+  }
+
+  .age_work p {
+    font-weight: 300;
+  }
+
+  .photo img {
+    width: 100%;
+  }
+  .about {
+    margin-top: 83px;
+  }
+  .about_title {
+    padding-top: 81px;
+    padding-bottom: 30px;
+  }
+
+  .about_text {
+    width: 95%;
+    padding-bottom: 76px;
+  }
+
+  .about_text p {
+    font-weight: 400;
+  }
+
+  .skills_title {
+    padding-top: 83px;
+    padding-bottom: 50px;
+  }
+
+  .skills {
+    text-align: center;
+    padding-bottom: 0;
+  }
+  .skills_text {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 84px;
+  }
+
+  .skills_apps {
+    display: block;
+  }
+
+  .skills_img {
+    margin-bottom: 81px;
+  }
+
+  .figma {
+    margin-top: 0;
+  }
+
+  .examples img {
+    width: 100%;
+  }
+
+  .portfolio_title {
+    padding-top: 81px;
+    margin-bottom: 64px;
+  }
+
+  .links {
+    margin-top: 33px;
+    padding-bottom: 78px;
+    font-weight: 400;
+  }
+
+  .footer_title {
+    padding-top: 82px;
+    margin-bottom: 27px;
+  }
+
+  .btn {
+    padding: 12px 97px;
+    margin: 39px auto 48px auto;
+  }
+
+  .icons {
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer_text {
+    margin: 0 0 90px 0;
+  }
+}
