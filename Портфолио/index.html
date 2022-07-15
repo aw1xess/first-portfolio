@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Портфолио</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="nav">
+          <div class="menu closed">
+            <ul class="list">
+              <li class="list_item">
+                <a href="#header" class="active">Home</a>
+              </li>
+              <li class="list_item">
+                <a href="#about" class="deactive">About me</a>
+              </li>
+              <li class="list_item">
+                <a href="#skills" class="deactive">Skills</a>
+              </li>
+              <li class="list_item">
+                <a href="#portfolio" class="deactive">Portfolio</a>
+              </li>
+              <li class="list_item">
+                <a href="#footer" class="deactive">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="line"></div>
+          <div class="gamburger">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="shortinfo">
+          <div class="name">
+            <h1>
+              Olga<br />
+              Novik
+            </h1>
+          </div>
+          <div class="age_work">
+            <p>
+              UX | UI designer <br />
+              24 years old, Minsk
+            </p>
+          </div>
+          <div class="lang">
+            <p><a>RU</a> | <a class="active">ENG</a></p>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="img/photo.jpg" alt="Olga Novik" />
+        </div>
+      </div>
+    </header>
+    <section class="about grey" id="about">
+      <div class="container">
+        <h2 class="about_title">About me</h2>
+        <div class="about_text">
+          <p class="about_para1">
+            Hi, I'm Olga – UX/UI designer from Minsk.<br />
+            I'm interested in design and everything connected with it.
+          </p>
+          <p class="about_para2">
+            I'm studying at courses "Web and mobile design<br />
+            interfaces" in IT-Academy.
+          </p>
+          <p class="about_para3">
+            Ready to implement excellent projects<br />
+            with wonderful people.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="skills_title">Skills</h2>
+        <p class="skills_text">I work in such programs as</p>
+        <div class="skills_apps">
+          <div class="skills_img">
+            <img src="img/ps.png" alt="Adobe Photoshop" />
+            <p class="img_text">Adobe <br />Photoshop</p>
+            <img src="img/four_stars.png" alt="four stars" />
+          </div>
+          <div class="skills_img">
+            <img src="img/ilst.png" alt="Adobe Illustrator" />
+            <p class="img_text">Adobe <br />Illustrator</p>
+            <img src="img/three_stars.png" alt="three stars" />
+          </div>
+          <div class="skills_img">
+            <img src="img/aef.png" alt="Adobe After Effects" />
+            <p class="img_text">Adobe <br />After Effects</p>
+            <img src="img/four_stars.png" alt="four stars" />
+          </div>
+          <div class="skills_img">
+            <img src="img/figma.png" alt="Figma" />
+            <p class="img_text">Figma</p>
+            <img src="img/four_stars.png" alt="four stars" class="figma" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio grey" id="portfolio">
+      <div class="container">
+        <h2 class="portfolio_title">Portfolio</h2>
+        <div class="examples">
+          <img src="img/mafanfa_web.jpg" alt="Fashion Website" />
+          <p class="links">
+            <a href="https://mafanfa.com">Online fashion store - Homepage</a>
+          </p>
+        </div>
+        <div class="examples">
+          <img src="img/reebok_web.jpg" alt="Reebok Website" />
+          <p class="links">
+            <a href="https://www.reebok.com/us">Reebok Store</a>
+          </p>
+        </div>
+        <div class="examples">
+          <img src="img/braun_web.jpg" alt="Braun Website" />
+          <p class="links">
+            <a href="https://us.braun.com/en-us/">Braun Landing Page</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <h2 class="footer_title">Contacts</h2>
+        <p class="contacts_text">
+          Want to know more or just chat?<br />
+          You are welcome!
+        </p>
+        <button class="btn">Send message</button>
+        <div class="icons">
+          <img src="img/icon1.svg" alt="LinkedIn" />
+          <img src="img/icon2.svg" alt="Instagram" />
+          <img src="img/icon3.svg" alt="Behance" />
+          <img src="img/icon4.svg" alt="Dribble" />
+        </div>
+        <p class="footer_text">
+          Like me on <br />
+          LinkedIn, Instagram, Behance, Dribble
+        </p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
